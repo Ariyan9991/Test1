@@ -1,4 +1,60 @@
-body
-{
-background-color:rgb(230, 211, 211); 
+body {
+    background-color: #55d6aa;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: yellow;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    place-items: center;
+   
+
+}
+
+footer {
+    display: grid;
+    place-items: center;
+}
+
+.Button1 {
+    background-color: salmon;
+    border: none;
+    font-size: 2rem;
+
+}
+main{
+    margin: 0;
+    padding: 0  ;
+}
+.marginleft {
+    margin: 1rem;
+}
+hr{
+    
+     border-style: dotted none none;
+width: 5%;     
+height: 0;
+border-color: grey;
+border-width: 10px;
+}
+.centeralizediv{
+    display: grid;
+    place-items:center ;
+}
+.removespacediv{
+    margin: 0px;
+    padding: 0px;
 }
