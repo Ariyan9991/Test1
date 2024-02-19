@@ -8,10 +8,13 @@ body {
 h3 {
     margin: 0px;
     padding: 0px;
+    color: #000000da;
 }
 h2 {
     margin: 0px;
     padding: 0px;
+    color: #000000da;
+
 }
 
 header {
@@ -30,10 +33,17 @@ footer {
 }
 
 .Button1 {
-    background-color: salmon;
+    background-color: rgb(19, 221, 103);
     border: none;
     font-size: 2rem;
 
+}
+
+.Button1:hover{
+    background-color: rgb(0, 168, 65);
+}
+.Button1:hover::after{
+    color: #000000;
 }
 main{
     margin: 0;
